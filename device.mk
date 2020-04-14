@@ -148,8 +148,7 @@ PRODUCT_BOARD_PLATFORM := msm8996
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8953 \
-    libmm-qcamera \
-    Snap
+    libmm-qcamera
 
 # Consumerir
 PRODUCT_PACKAGES += \
@@ -470,3 +469,7 @@ PRODUCT_BOOT_JARS += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# GCam Go
+PRODUCT_PACKAGES += \
+    GCam
