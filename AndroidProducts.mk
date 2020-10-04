@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_vince.mk
+    $(LOCAL_DIR)/octavi_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_vince-user \
-    revengeos_vince-userdebug \
-    revengeos_vince-eng
+    octavi_vince-user \
+    octavi_vince-userdebug \
+    octavi_vince-eng
