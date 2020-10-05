@@ -33,7 +33,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/qcom-caf/msm8996
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -217,6 +218,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libwifi-hal-ctrl
+
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
 
 # Healthd
 PRODUCT_PACKAGES += \
