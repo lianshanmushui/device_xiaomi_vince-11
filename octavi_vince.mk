@@ -45,3 +45,6 @@ BUILD_FINGERPRINT := "xiaomi/vince/vince:8.1.0/OPM1.171019.019/V11.0.2.0.OEGMIXM
 #Official
 OCTAVI_BUILD_TYPE=Official
 OCTAVI_BUILD_TYPE := Official
+
+# Octavi Stuff
+TARGET_USES_BLUR := true
