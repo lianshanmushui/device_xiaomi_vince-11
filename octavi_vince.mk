@@ -48,3 +48,4 @@ OCTAVI_BUILD_TYPE := Official
 
 # Octavi Stuff
 TARGET_USES_BLUR := true
+OCTAVI_DEVICE_MAINTAINER := Srinand.E.K
