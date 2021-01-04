@@ -1,0 +1,20 @@
+
+    {
+        "repository": "aseelps/vendor_xiaomi_vince",
+        "target_path": "vendor/xiaomi/vince",
+        "branch": "11",
+        "remote": "github"
+    },
+     {
+        "repository": "aseelps/kernel_xiaomi_vince",
+        "target_path": "kernel/xiaomi/vince",
+        "branch": "darky",
+        "remote": "github"
+    },
+     {
+        "remote": "havoc",
+        "repository": "android_packages_apps_Dirac",
+        "target_path": "packages/apps/Dirac",
+        "branch": "ten"
+    }
+]
