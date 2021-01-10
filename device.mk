@@ -309,7 +309,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    GCamGo
+    GCam
 
 # OMX
 PRODUCT_PACKAGES += \
