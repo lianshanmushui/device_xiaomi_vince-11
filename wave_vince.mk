@@ -25,6 +25,7 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 $(call inherit-product, vendor/wave/configs/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+VANILLA_BUILD := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
