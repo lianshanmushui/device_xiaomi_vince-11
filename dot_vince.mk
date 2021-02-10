@@ -26,6 +26,7 @@ $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 WITH_GAPPS := true
+DOT_OFFICIAL := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
