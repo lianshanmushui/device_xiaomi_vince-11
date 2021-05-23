@@ -33,6 +33,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 WITH_GAPPS := true
 DOT_OFFICIAL := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
