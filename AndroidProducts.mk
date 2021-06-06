@@ -14,10 +14,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_vince.mk
+    $(LOCAL_DIR)/exthm_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_vince-user \
-    dot_vince-userdebug \
-    dot_vince-eng
+    exthm_vince-user \
+    exthm_vince-userdebug \
+    exthm_vince-eng
 
